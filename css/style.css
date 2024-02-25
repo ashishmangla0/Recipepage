@@ -85,6 +85,7 @@ ol {
 
 .recipe__section--others .recipe__sub-title {
     color: var(--primary-nutmeg);
+    font-weight: 500;
 }
 
 @media(min-width: 740px) {
