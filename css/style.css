@@ -40,7 +40,7 @@ img{
     font-size: 40px;
     font-weight: 400;
     color: var(--neutral-dark-charcoal);
-    margin-bottom: 20px;
+    margin-bottom: 1rem;
 }
 .recipe__section{
     font-weight: 400;
