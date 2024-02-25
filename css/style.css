@@ -40,6 +40,14 @@ img{
     font-size: 40px;
     font-weight: 400;
     color: var(--neutral-dark-charcoal);
+    margin-bottom: 20px;
+}
+.recipe__section{
+    font-weight: 400;
+   
+}
+.recipe__desc{
+    font-family: "Outfit", sans-serif;
 }
 
 @media(min-width: 740px){
