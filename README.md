@@ -46,6 +46,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+- Web Accessibility
 
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
