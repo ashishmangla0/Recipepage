@@ -47,7 +47,7 @@ img{
 }
 .recipe__section{
     font-weight: 400;
-   
+   margin-bottom: 10px;
 }
 .recipe__desc{
     font-family: "Outfit", sans-serif;
@@ -63,6 +63,10 @@ border-bottom: 1px solid var(--neutral-light-grey);
     padding: 30px;
     border-radius: 12px;
 }
+ul,ol{
+    margin: 0;
+}
+
 
 @media(min-width: 740px){
     .recipe{
