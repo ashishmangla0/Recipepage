@@ -74,6 +74,9 @@ ul,ol{
     font-weight: 500;
     color: var(--primary-dark-Raspberry);
 }
+.recipe__section--others .recipe__sub-title{
+color: var(--primary-nutmeg);
+}
 
 @media(min-width: 740px){
     .recipe{
