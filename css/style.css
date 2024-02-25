@@ -4,16 +4,33 @@
 
 :root{
 --white: #ffffff;
+--primary-nutmeg: hsl(14, 45%, 36%);
+--primary-dark-Raspberry: hsl(332, 51%, 32%);
+--neutral-eggshell: hsl(30, 54%, 90%);
+
 }
 
 
 body{
-    margin: 0 auto;
+    margin: 122px auto;
     font-size: 1rem;
+    background: var(--neutral-eggshell);
+    font-family: "Young Serif", sans-serif;
+}
+
+img{
+    max-width: 100%;
+    vertical-align: middle;
 }
 
 .recipe{
     max-width: 735px;
     margin: 0 auto;
     background: var(--white);
+    padding: 40px;
+    border-radius: 12px;
+    
+}
+.recipe__feature{
+    border-radius: 12px;
 }
