@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    margin-top: 0;
 }
 
 :root{
@@ -9,13 +10,12 @@
 --neutral-eggshell: hsl(30, 54%, 90%);
 
 }
-
-
 body{
     margin: 122px auto;
     font-size: 1rem;
     background: var(--neutral-eggshell);
     font-family: "Young Serif", sans-serif;
+    line-height: 1.5;
 }
 
 img{
@@ -24,13 +24,23 @@ img{
 }
 
 .recipe{
-    max-width: 735px;
     margin: 0 auto;
-    background: var(--white);
     padding: 40px;
     border-radius: 24px;
     
 }
 .recipe__feature{
     border-radius: 12px;
+    margin-bottom: 40px;
+}
+
+.recipe__title{
+    font-size: 40px;
+}
+
+@media(min-width: 740px){
+    .recipe{
+        max-width: 735px;
+        background: var(--white);
+    }
 }
