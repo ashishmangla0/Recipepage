@@ -61,7 +61,7 @@ border-bottom: 1px solid var(--neutral-light-grey);
 }
 .recipe__section--prepare{
     background: var(--neutral-rose-white);
-    padding: 30px;
+    padding: 28px 30px;
     border-radius: 12px;
     font-family: "Outfit", sans-serif;
 }
@@ -70,7 +70,8 @@ ul,ol{
 }
 .recipe__section--prepare .recipe__sub-title{
     font-size: 20px;
-    margin-bottom: 24px;
+    margin-bottom: 16px;
+    font-weight: 500;
 }
 
 @media(min-width: 740px){
