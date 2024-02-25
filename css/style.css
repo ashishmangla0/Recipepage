@@ -10,6 +10,7 @@
 --neutral-eggshell: hsl(30, 54%, 90%);
 --neutral-dark-charcoal: hsl(24, 5%, 18%);
 --neutral-light-grey: hsl(30, 18%, 87%);
+--neutral-wenge-brown: hsl(30, 10%, 34%)
 
 }
 body{
@@ -18,6 +19,7 @@ body{
     background: var(--neutral-eggshell);
     font-family: "Young Serif", sans-serif;
     line-height: 1.5;
+    color: var(--neutral-wenge-brown);
 }
 
 img{
