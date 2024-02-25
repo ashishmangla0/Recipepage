@@ -47,10 +47,11 @@ img{
 }
 .recipe__section{
     font-weight: 400;
-   margin-bottom: 20px;
+   margin-bottom: 32px;
 }
 .recipe__desc{
     font-family: "Outfit", sans-serif;
+    margin: 0;
 }
 
 .recipe__section--others:not(:last-child){
