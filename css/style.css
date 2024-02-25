@@ -8,6 +8,8 @@
 --primary-nutmeg: hsl(14, 45%, 36%);
 --primary-dark-Raspberry: hsl(332, 51%, 32%);
 --neutral-eggshell: hsl(30, 54%, 90%);
+--neutral-dark-charcoal: hsl(24, 5%, 18%);
+--neutral-light-grey: hsl(30, 18%, 87%);
 
 }
 body{
@@ -37,6 +39,7 @@ img{
 .recipe__title{
     font-size: 40px;
     font-weight: 400;
+    color: var(--neutral-dark-charcoal);
 }
 
 @media(min-width: 740px){
